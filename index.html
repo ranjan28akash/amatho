@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amatho - Coastal Management & Ocean Tech</title>
+    <meta name="description" content="Amatho provides specialized consultancy services in coastal area management and procurement support for ocean observation equipment.">
+    <link rel="icon" href="images/logo-light.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="Amatho Marine Logo">
+        </a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="nav-links">
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="#contact" class="nav-btn">Contact Us</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Shaping the Future of <br><span class="gradient-text">Coastal Resilience</span></h1>
+            <p>Specialized consultancy in coastal area management and state-of-the-art nearshore ocean observation equipment.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#products" class="btn btn-secondary">View Products</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="services" class="section">
+            <div class="section-header reveal">
+                <h2>Coastal Management Services</h2>
+                <p>We provide specialized consultancy services for government agencies, developers, and infrastructure projects, combining field investigations with practical planning to manage coastal resources responsibly and sustainably.</p>
+            </div>
+            
+            <div class="grid services-grid">
+                <!-- Cards for each service will be injected by JS -->
+            </div>
+
+            <div class="approach-clients reveal">
+                <div class="approach">
+                    <h3>Our Approach</h3>
+                    <ul>
+                        <li>Scientific and data-driven</li>
+                        <li>Site-specific and practical</li>
+                        <li>Compliance-oriented</li>
+                        <li>Environmentally responsible</li>
+                        <li>Focused on long-term resilience</li>
+                    </ul>
+                </div>
+                <div class="clients">
+                    <h3>Who We Serve</h3>
+                    <ul>
+                        <li>Government departments and agencies</li>
+                        <li>Ports and harbors</li>
+                        <li>Real estate and waterfront developers</li>
+                        <li>Industrial and infrastructure projects</li>
+                        <li>Tourism and resort developments</li>
+                        <li>Research and academic institutions</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="section">
+            <div class="section-header reveal">
+                <h2>Ocean Observation Products</h2>
+                <p>We provide procurement support, deployment, and annual maintenance for nearshore ocean observation and coastal monitoring equipment. All equipment can be supplied with appropriate safety measures and telemetry options.</p>
+            </div>
+
+            <div class="grid products-grid">
+                <!-- Cards for each product will be injected by JS -->
+            </div>
+
+            <div class="product-support reveal">
+                <h3>Our Product Support</h3>
+                <div class="support-grid">
+                    <div class="support-item">Equipment procurement assistance</div>
+                    <div class="support-item">Installation and deployment support</div>
+                    <div class="support-item">Safety arrangements for offshore/nearshore use</div>
+                    <div class="support-item">Telemetry and real-time data transmission options</div>
+                    <div class="support-item">Annual maintenance and servicing</div>
+                    <div class="support-item">Calibration and performance checks</div>
+                    <div class="support-item">Technical support during the equipment life cycle</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="contact-card glass-card reveal">
+                <h2>Get in Touch</h2>
+                <p>For project consultations, technical studies, or customized coastal management support, please contact us to discuss your requirements.</p>
+                <form id="contactForm" class="contact-form" action="https://formsubmit.co/ajax/amathomarine@gmail.com" method="POST">
+                    <!-- Honeypot field to prevent spam -->
+                    <input type="text" name="_honey" style="display:none">
+                    <!-- Disable captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="footer-logo">
+                <img src="images/logo.png" alt="Amatho Marine Logo">
+            </a>
+            <p>&copy; 2026 Amatho. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
